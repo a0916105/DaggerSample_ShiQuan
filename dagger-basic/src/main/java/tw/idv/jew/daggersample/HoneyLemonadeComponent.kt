@@ -4,5 +4,8 @@ import dagger.Component
 
 @Component
 interface HoneyLemonadeComponent {
-    fun getHoneyLemonade(): HoneyLemonade
+    // Don't need this anymore
+    // fun getHoneyLemonade(): HoneyLemonade
+
+    fun inject(mainActivity: MainActivity)
 }
