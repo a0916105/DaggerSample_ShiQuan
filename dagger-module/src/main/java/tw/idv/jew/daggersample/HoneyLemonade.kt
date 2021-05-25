@@ -11,4 +11,6 @@ class Bee @Inject constructor()
 //使用Dagger後，可替換的類別
 open class Lemon
 
-class Lyme () : Lemon()
+class Lyme(val water: Water) : Lemon()
+
+class Water @Inject constructor()
