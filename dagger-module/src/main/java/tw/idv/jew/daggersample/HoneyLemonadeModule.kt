@@ -6,7 +6,7 @@ import dagger.Provides
 @Module
 class HoneyLemonadeModule {
     @Provides
-    fun provideLemon(water: Water): Lemon {
-        return Lyme(water)
+    fun provideLemon(lyme: Lyme): Lemon {
+        return lyme
     }
 }
