@@ -2,7 +2,7 @@ package tw.idv.jew.daggersample
 
 import dagger.Component
 
-@Component
+@Component(modules = [HoneyLemonadeModule::class])
 interface HoneyLemonadeComponent {
     fun inject(mainActivity: MainActivity)
 }
