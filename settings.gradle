@@ -2,3 +2,4 @@ rootProject.name = "DaggerSample"
 include ':no-dagger'
 include ':dagger-basic'
 include ':dagger-module'
+include ':dagger-scope'
