@@ -8,11 +8,13 @@ import javax.inject.Named
 
 class MainActivity : AppCompatActivity() {
     @Inject
-    @Named("LemonFlavor")
+//    @Named("LemonFlavor")
+    @LemonFlavor
     lateinit var honeyLemon: HoneyLemonade
 
     @Inject
-    @Named("LymeFlavor")
+//    @Named("LymeFlavor")
+    @LymeFlavor
     lateinit var honeyLyme: HoneyLemonade
 
     override fun onCreate(savedInstanceState: Bundle?) {

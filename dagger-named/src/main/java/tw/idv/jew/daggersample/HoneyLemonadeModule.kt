@@ -8,13 +8,15 @@ import javax.inject.Named
 class HoneyLemonadeModule {
 
     @Provides
-    @Named("LemonFlavor")
+//    @Named("LemonFlavor")
+    @LemonFlavor
     fun provideHoneyLemon(honey: Honey, lemon: Lemon): HoneyLemonade {
         return HoneyLemonade(honey, lemon)
     }
 
     @Provides
-    @Named("LymeFlavor")
+//    @Named("LymeFlavor")
+    @LymeFlavor
     fun provideHoneyLyme(honey: Honey, lyme: Lyme): HoneyLemonade {
         return HoneyLemonade(honey, lyme)
     }
