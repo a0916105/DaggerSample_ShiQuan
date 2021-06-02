@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/dagger-basic" />
+            <option value="$PROJECT_DIR$/dagger-dependencies" />
             <option value="$PROJECT_DIR$/dagger-lazy" />
             <option value="$PROJECT_DIR$/dagger-module" />
             <option value="$PROJECT_DIR$/dagger-named" />
