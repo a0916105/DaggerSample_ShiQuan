@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/dagger-dependencies" />
             <option value="$PROJECT_DIR$/dagger-lazy" />
             <option value="$PROJECT_DIR$/dagger-module" />
+            <option value="$PROJECT_DIR$/dagger-multi-binding" />
             <option value="$PROJECT_DIR$/dagger-named" />
             <option value="$PROJECT_DIR$/dagger-scope" />
             <option value="$PROJECT_DIR$/dagger-subcomponent" />
