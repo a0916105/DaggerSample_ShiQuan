@@ -12,4 +12,7 @@ class Honey @Inject constructor(val bee: Bee)
 class Bee @Inject constructor()
 
 @ActivityScoped
-class Lemon @Inject constructor()
+open class Lemon @Inject constructor()
+
+@ActivityScoped
+class Lyme @Inject constructor() : Lemon()
