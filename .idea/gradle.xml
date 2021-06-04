@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/dagger-named" />
             <option value="$PROJECT_DIR$/dagger-scope" />
             <option value="$PROJECT_DIR$/dagger-subcomponent" />
+            <option value="$PROJECT_DIR$/hilt-basic" />
             <option value="$PROJECT_DIR$/no-dagger" />
           </set>
         </option>
